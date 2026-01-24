@@ -147,25 +147,24 @@
                 <form name="contactUS" netlify>
                     <div class="input-field">
                         <i id="icons" class="fas fa-lock"></i>
-                        <input type="text" required />
-                        <label>Name</label>
+                        <input type="text" id="name" name="name" required />
+                        <label for="name">Name</label>
                     </div>
 
                     <div class="input-field">
                         <i id="icons" class="fas fa-envelope"></i>
-                        <input type="text" required />
-                        <label>Email</label>
+                        <input type="text" id="email" name="email" required />
+                        <label for="email">Email</label>
                     </div>
 
                     <div class="input-field">
                         <i id="icons" class="fas fa-lock"></i>
-                        <input type="text" required />
-                        <label>Subject</label>
+                        <input type="text" id="subject" name="subject" required />
+                        <label for="subject">Subject</label>
                     </div>
 
                     <div class="input-textarea">
-                        <!-- <label>Message</label> -->
-                        <textarea name="" id="" rows="7" placeholder="Message"></textarea>
+                        <textarea name="message" id="message" rows="7" placeholder="Message"></textarea>
                     </div>
                     
                     <button type="submit"> <i class="fa-solid fa-right-to-bracket"></i>Send</button>
